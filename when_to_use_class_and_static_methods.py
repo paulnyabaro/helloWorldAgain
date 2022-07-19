@@ -12,3 +12,6 @@ class Item:
         This should also do something that has a relationship with the class, but usually, those are to
         manipulate different structures of data to instantiate objects like we have done on the CSV
         """
+
+        # The main difference is that static methods are not passing the object reference as the first argument
+        # in the background
