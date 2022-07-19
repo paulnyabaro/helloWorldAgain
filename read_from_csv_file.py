@@ -30,5 +30,18 @@ class Item:
         for item in items:
             print(item)
 
+    @staticmethod
+    def check_if_integer(num):
+        if isinstance(num, float):
+            return num.is_integer()
+        elif isinstance(num, int):
+            return True
+        else:
+            return False
+
 
 Item.instantiate_from_csv()
+
+print(Item.check_if_integer(7))
+print(Item.check_if_integer(4.0))
+print(Item.check_if_integer(7.2))
