@@ -45,3 +45,16 @@ y = [2, 12, 3]
 z = sorted(y)
 print(z)
 
+
+def fun():
+    for m in range(22, 23, 24):
+        print(m)
+
+
+fun()
+
+a = 100 / 5
+b = 20 // 3
+print(a * b)
+
+
