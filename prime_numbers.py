@@ -11,13 +11,30 @@
 #
 # print(set(all_numbers) - set(not_prime_numbers))
 
+# Attempt 2
+#
+# dividend = int(input('Please enter a number '))
+#
+# for divisor in range(2, dividend):
+#     if dividend % divisor == 0:
+#         print(f"{dividend} is not prime")
+#         break
+#     else:
+#         print(f"{dividend} is prime")
+#         break
+#
 
-dividend = int(input('Please enter a number'))
+# using while loop to find prime numbers
+dividend = int(input("Enter number "))
+divisor = 2
 
-for divisor in range(2, dividend):
+while divisor < dividend:
     if dividend % divisor == 0:
         print(f"{dividend} is not prime")
         break
-    else:
-        print(f"{dividend} is prime")
-        break
+    divisor += divisor
+
+else:
+    print(f"{dividend} is prime!")
+
+
