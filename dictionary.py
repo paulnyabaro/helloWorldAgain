@@ -15,9 +15,11 @@ student_two = {
 }
 
 student_three = {
-    ('James', 'Web', 'Telescope'): 'This is the name'
+    ('James', 'Web', 'Telescope'): 'This is the name',
+    1: 'This is the position'
 }
 
 
 print(student['name'])
 print(student_three[('James', 'Web', 'Telescope')])
+print(student_three[1])
