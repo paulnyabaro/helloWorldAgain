@@ -23,3 +23,7 @@ student_three = {
 print(student['name'])
 print(student_three[('James', 'Web', 'Telescope')])
 print(student_three[1])
+
+# Using the get and parenthesis --- returns None if key not found you can also define a default value
+print(student.get('name'))
+print(student.get('names', 'Not found'))
