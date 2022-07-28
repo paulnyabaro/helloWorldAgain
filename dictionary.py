@@ -28,7 +28,7 @@ print(student_three[1])
 print(student.get('name'))
 print(student.get('names', 'Not found'))
 
-# Adding to a dictionary
+# Adding to a dictionary or modifying if the key already exists
 student['gender'] = 'Male'
 print(student)
 
@@ -47,10 +47,9 @@ movie.update(movie_meta)
 
 print(movie)
 
-movie_calculated = {
+# Passing the dictionary direct to the update method
+movie.update({
     'profit': int(movie.get('earnings')) - int(movie.get('budget'))
-}
-
-movie.update(movie_calculated)
+})
 
 print(movie)
