@@ -27,3 +27,22 @@ print(student_three[1])
 # Using the get and parenthesis --- returns None if key not found you can also define a default value
 print(student.get('name'))
 print(student.get('names', 'Not found'))
+
+# Adding to a dictionary
+student['gender'] = 'Male'
+print(student)
+
+# Adding to a dictionary using the update method
+movie = {
+    'name': 'The avengers end game',
+    'budget': 2_000_000
+}
+
+movie_meta = {
+    'Director': 'Jim Thompson Lie',
+    'Profit': 389_000_000
+}
+
+movie.update(movie_meta)
+
+print(movie)
