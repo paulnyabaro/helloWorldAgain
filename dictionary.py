@@ -35,12 +35,12 @@ print(student)
 # Adding to a dictionary using the update method
 movie = {
     'name': 'The avengers end game',
-    'budget': 2_000_000
+    'budget': 356_000_000
 }
 
 movie_meta = {
     'Director': 'Anthony Russo',
-    'Profit': 389_000_000
+    'Profit': 2_798_000_000
 }
 
 movie.update(movie_meta)
