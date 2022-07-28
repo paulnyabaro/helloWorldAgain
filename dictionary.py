@@ -66,3 +66,7 @@ for key in movie:
 # We can as well use value to iterate
 for value in movie.values():
     print(value)
+
+# Using the items method
+for key, value in movie.items():
+    print(f'{key}: {value}')
