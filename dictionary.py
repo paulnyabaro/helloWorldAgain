@@ -14,4 +14,10 @@ student_two = {
     'graders': [79, 88, 92]
 }
 
+student_three = {
+    ('James', 'Web', 'Telescope'): 'This is the name'
+}
+
+
 print(student['name'])
+print(student_three[('James', 'Web', 'Telescope')])
