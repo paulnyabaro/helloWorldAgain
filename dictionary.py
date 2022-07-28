@@ -62,3 +62,7 @@ print(movie)
 # Iterating in dictionaries
 for key in movie:
     print(f"{key.title()} : {movie[key]}")
+
+# We can as well use value to iterate
+for value in movie.values():
+    print(value)
