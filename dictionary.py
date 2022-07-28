@@ -39,7 +39,7 @@ movie = {
 }
 
 movie_meta = {
-    'Director': 'Jim Thompson Lie',
+    'Director': 'Anthony Russo',
     'Profit': 389_000_000
 }
 
