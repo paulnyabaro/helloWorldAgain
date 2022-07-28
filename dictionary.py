@@ -40,9 +40,17 @@ movie = {
 
 movie_meta = {
     'Director': 'Anthony Russo',
-    'Profit': 2_798_000_000
+    'earnings': 2_798_000_000
 }
 
 movie.update(movie_meta)
+
+print(movie)
+
+movie_calculated = {
+    'profit': int(movie.get('earnings')) - int(movie.get('budget'))
+}
+
+movie.update(movie_calculated)
 
 print(movie)
