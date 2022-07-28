@@ -53,3 +53,12 @@ movie.update({
 })
 
 print(movie)
+
+# Deleting from a dictionary -- same as in lists
+# Use the del
+# del movie['runtime']
+# or use pop and pass the key
+
+# Iterating in dictionaries
+for key in movie:
+    print(f"{key.title()} : {movie[key]}")
