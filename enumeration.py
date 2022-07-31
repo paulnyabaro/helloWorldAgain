@@ -29,6 +29,6 @@ for title, director, year in movies:
 # Using enumerate function
 names = ["Harry", "Rachel", "Brian"]
 
-for counter, name in enumerate(names):
-    print(f"{counter + 1}. {name}")
+for counter, name in enumerate(names, start=1):
+    print(f"{counter}. {name}")
 
