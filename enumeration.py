@@ -32,3 +32,6 @@ names = ["Harry", "Rachel", "Brian"]
 for counter, name in enumerate(names, start=1):
     print(f"{counter}. {name}")
 
+# The braces are very important
+for counter, (title, director, year) in enumerate(movies, start=1):
+    print(f"{counter}. {title} ({year}), by {director}")
