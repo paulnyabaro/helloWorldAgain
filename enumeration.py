@@ -25,3 +25,10 @@ movies = [
 
 for title, director, year in movies:
     print(f"{title} ({year}), by {director}")
+
+# Using enumerate function
+names = ["Harry", "Rachel", "Brian"]
+
+for counter, name in enumerate(names):
+    print(f"{counter + 1}. {name}")
+
