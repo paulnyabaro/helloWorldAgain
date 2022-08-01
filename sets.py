@@ -13,3 +13,8 @@ print(vegetable)
 # Using update method
 vegetable.update(["potato", "pumpkin"])
 print(vegetable)
+
+# Deleting from a set
+vegetable.remove("potato")
+print(vegetable)
+
