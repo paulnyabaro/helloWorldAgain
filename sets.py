@@ -40,3 +40,17 @@ numbers_divisible_by_two = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24}
 numbers_divisible_by_three = {3, 6, 9, 12, 15, 18, 21, 24, 27}
 numbers_divisible_by_both_two_and_three = numbers_divisible_by_two.intersection(numbers_divisible_by_three)
 print(numbers_divisible_by_both_two_and_three)
+
+# Difference
+# Order matters
+bundle_1 = {"Resident Evil 3", "Final Fantasy VII", "Cyberpunk 2077"}
+bundle_2 = {"Doom Eternal", "Halo Infinite", "Resident Evil 3"}
+print(bundle_1.difference(bundle_2))
+print(bundle_2.difference(bundle_1))
+
+# Symmetric difference
+# Order does not matter
+bundle_1 = {"Resident Evil 3", "Final Fantasy VII", "Cyberpunk 2077"}
+bundle_2 = {"Doom Eternal", "Halo Infinite", "Resident Evil 3"}
+
+print(bundle_1.symmetric_difference(bundle_2))
