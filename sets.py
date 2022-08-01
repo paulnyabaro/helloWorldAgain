@@ -15,6 +15,14 @@ vegetable.update(["potato", "pumpkin"])
 print(vegetable)
 
 # Deleting from a set
+# Using delete
 vegetable.remove("potato")
 print(vegetable)
 
+# Using discard -> does not raise an exception if the key is not found
+vegetable.discard("cabbage")
+print(vegetable)
+
+# Using pop to remove and item
+vegetable.pop()
+print(vegetable)
