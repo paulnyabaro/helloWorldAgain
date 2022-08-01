@@ -26,3 +26,17 @@ print(vegetable)
 # Using pop to remove and item
 vegetable.pop()
 print(vegetable)
+
+# Sets operations
+# Union
+letters = {"a", "b", "c"}
+numbers = {1, 2, 3}
+
+letters_and_numbers = letters.union(numbers)
+print(letters_and_numbers)
+
+# Intersection
+numbers_divisible_by_two = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24}
+numbers_divisible_by_three = {3, 6, 9, 12, 15, 18, 21, 24, 27}
+numbers_divisible_by_both_two_and_three = numbers_divisible_by_two.intersection(numbers_divisible_by_three)
+print(numbers_divisible_by_both_two_and_three)
