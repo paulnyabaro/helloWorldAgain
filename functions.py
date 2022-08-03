@@ -15,3 +15,30 @@ draw_patters("*", 8)
 draw_patters("-", 18)
 draw_patters("^", 16)
 draw_patters(num_range=10, symbol='%')
+
+# We can’t provide a positional argument after a keyword argument.
+
+
+def num_add(num1, num2):
+    print(f'Addition of {num1} and {num2} is {num1 + num2}')
+
+
+def num_sub(num1, num2):
+    print(f'{num2} subtracted from {num1} is {num1 - num2}')
+
+
+def num_div(num1, num2=1):
+    try:
+        print(f'Division of {num1} to {num2} is {num1 / num2}')
+    except ZeroDivisionError:
+        print('You can\'t divide by zero')
+
+
+def num_mul(num1, num2):
+    print(f'Multiplication of {num1} and {num2} is {num1 * num2}')
+
+
+num_add(32, 0)
+num_sub(32, 0)
+num_div(32, 0)
+num_mul(32, 0)
