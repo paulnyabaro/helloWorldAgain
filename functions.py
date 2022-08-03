@@ -4,3 +4,13 @@ def get_even_numbers(number=6):
 
 
 get_even_numbers(8)
+
+
+def draw_patters(symbol, num_range):
+    for i in range(num_range):
+        print(symbol * i)
+
+
+draw_patters("*", 8)
+draw_patters("-", 18)
+draw_patters("^", 16)
