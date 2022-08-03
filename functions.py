@@ -7,8 +7,8 @@ get_even_numbers(8)
 
 
 def draw_patters(symbol, num_range):
-    for i in range(num_range):
-        print(symbol * i)
+    for _ in range(num_range):
+        print(symbol * _)
 
 
 draw_patters("*", 8)
