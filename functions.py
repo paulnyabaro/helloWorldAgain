@@ -14,3 +14,4 @@ def draw_patters(symbol, num_range):
 draw_patters("*", 8)
 draw_patters("-", 18)
 draw_patters("^", 16)
+draw_patters(num_range=10, symbol='%')
