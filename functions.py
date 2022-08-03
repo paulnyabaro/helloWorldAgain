@@ -38,7 +38,7 @@ def num_mul(num1, num2):
     print(f'Multiplication of {num1} and {num2} is {num1 * num2}')
 
 
-num_add(32, 0)
-num_sub(32, 0)
-num_div(32, 0)
-num_mul(32, 0)
+num_add(145, 822)
+num_sub(21978, 232)
+num_div(32424, 23)
+num_mul(98, 3)
