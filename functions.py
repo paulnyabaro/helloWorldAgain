@@ -42,3 +42,17 @@ num_add(145, 822)
 num_sub(21978, 232)
 num_div(32424, 23)
 num_mul(98, 3)
+
+
+def is_palindrome(word):
+    word = word.strip().lower()
+    reversed_word = reversed(word)
+
+    if list(word) == list(reversed_word):
+        print(True)
+    else:
+        print(False)
+
+
+is_palindrome("Hannah")
+is_palindrome("was it a car or a cat I saw") # This should be a palindrome
