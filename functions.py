@@ -56,3 +56,10 @@ def is_palindrome(word):
 
 is_palindrome("Hannah")
 is_palindrome("was it a car or a cat I saw") # This should be a palindrome
+
+
+def add(a, b):
+    return a + b
+
+
+print(add(787, 232))
