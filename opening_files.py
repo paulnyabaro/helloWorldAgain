@@ -8,4 +8,9 @@ example.close()
 # example = open('example.txt', mode='r')
 
 # Opening files for writing
-example = open('example.txt', 'w')
+# example = open('example.txt', 'w')
+# example = open('example.txt', mode='w')
+
+# Opening files for append mode
+# example = open('example.txt', 'a')
+# example = open('example.txt', mode='a')
