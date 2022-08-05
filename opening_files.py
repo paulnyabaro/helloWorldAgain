@@ -14,6 +14,10 @@ example.close()
 # Opening files for append mode
 # example = open('example.txt', 'a')
 example2 = open('example.txt', mode='a')
-example2.write('\nNow there is the second line in the file')
+example2.write('\nNow there is another line in the file')
 example2.close()
 
+
+# Context managers for working with files
+with open('example.txt', 'r') as example3:
+    print(example3.read())
