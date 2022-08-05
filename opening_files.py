@@ -13,4 +13,7 @@ example.close()
 
 # Opening files for append mode
 # example = open('example.txt', 'a')
-# example = open('example.txt', mode='a')
+example2 = open('example.txt', mode='a')
+example2.write('\nNow there is the second line in the file')
+example2.close()
+

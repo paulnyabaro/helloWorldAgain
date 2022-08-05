@@ -1,1 +1,2 @@
 Hello from example.txt file
+Now there is the second line in the file
