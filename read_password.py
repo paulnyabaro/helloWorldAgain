@@ -1,5 +1,5 @@
-read_password = open('password.txt', 'r')
-password = read_password.read()
+with open('password.txt', 'r') as read_password:
+    password = read_password.read()
 
 user_password = input('Please enter you password to proceed ')
 if user_password == password:
