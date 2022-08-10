@@ -37,3 +37,14 @@ names = {name for name in names}
 print(names)
 names = {name.title() for name in names}
 print(names)
+
+# Dictionaries comprehensions
+names = ['Kay', 'Jane', 'priscilla', 'cecile', 'keiTh']
+ages = [32, 32, 42, 26, 21]
+
+student_data = {
+    student_name: student_age
+    for student_name, student_age in
+    zip(names, ages)
+}
+print(student_data)
