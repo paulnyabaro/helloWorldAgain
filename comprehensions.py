@@ -14,3 +14,15 @@ print(processed_names_2)
 # Replacing the old list with the new one
 names = [name.title() for name in names]
 print(names)
+
+# A more complex example
+names = ['Kay', 'Jane', 'priscilla', 'cecile', 'keiTh']
+ages = [32, 32, 42, 26, 21]
+
+person_data = []
+
+for name, age in zip(names, ages):
+    person_info = name, age
+    person_data.append(person_info)
+
+print(person_data)
