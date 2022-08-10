@@ -26,3 +26,8 @@ for name, age in zip(names, ages):
     person_data.append(person_info)
 
 print(person_data)
+
+# A more sophisticated approach
+people_data = [(name.title(), age) for name, age in zip(names, ages)]
+print(people_data)
+
