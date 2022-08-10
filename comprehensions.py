@@ -31,3 +31,9 @@ print(person_data)
 people_data = [(name.title(), age) for name, age in zip(names, ages)]
 print(people_data)
 
+# Set comprehensions
+names = ['Kay', 'Jane', 'priscilla', 'cecile', 'keiTh', 'keith', 'KEITH']
+names = {name for name in names}
+print(names)
+names = {name.title() for name in names}
+print(names)
