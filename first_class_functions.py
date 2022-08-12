@@ -10,3 +10,6 @@ students = [
 def get_grade_average(student):
     return student["grade_average"]
 
+
+valedictorian = max(students, key=get_grade_average)
+print(valedictorian)
