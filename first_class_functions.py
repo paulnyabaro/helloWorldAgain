@@ -13,3 +13,8 @@ def get_grade_average(student):
 
 valedictorian = max(students, key=get_grade_average)
 print(valedictorian)
+
+
+# Lambda expressions
+# Fibonacci series
+# lambda a, b: a + b
