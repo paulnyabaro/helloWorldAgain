@@ -44,6 +44,7 @@ while user_option == 'r' or user_option == 'p' or user_option == 's' or user_opt
 
     else:
         exit()
+
 else:
     user_option = input('''Invalid option try again!''')
 
