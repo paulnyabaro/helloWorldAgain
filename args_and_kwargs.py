@@ -10,3 +10,15 @@ def add_nums(*args):
 
 
 print(add_nums(1, 23, 43, 342, 432, 2, 12, 42))
+
+# You can use a descriptive argument name in the function
+
+
+def display_names(*names):
+    print('The names in the Family Guy show are:')
+    for name in names:
+        print(name)
+
+
+display_names('Bryan', 'Peter', 'Griffins', 'Stewie', 'Loes', 'Meg')
+
