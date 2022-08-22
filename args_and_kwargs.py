@@ -22,3 +22,7 @@ def display_names(*names):
 
 display_names('Bryan', 'Peter', 'Griffins', 'Stewie', 'Loes', 'Meg')
 
+# Creating dictionary using the dict keyword
+person = dict(name="Phil", age=29, city="Budapest", nationality="British")
+print(person)
+
