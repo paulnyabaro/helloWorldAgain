@@ -26,3 +26,13 @@ display_names('Bryan', 'Peter', 'Griffins', 'Stewie', 'Loes', 'Meg')
 person = dict(name="Phil", age=29, city="Budapest", nationality="British")
 print(person)
 
+
+# Using **kwargs
+def pretty_print(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+
+pretty_print(title="The Matrix", director="Wachowski", year=1999)
+
+# Using pretty_print
