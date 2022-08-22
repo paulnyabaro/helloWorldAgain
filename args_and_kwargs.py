@@ -36,3 +36,5 @@ def pretty_print(**kwargs):
 pretty_print(title="The Matrix", director="Wachowski", year=1999)
 
 # Using pretty_print
+
+# *** READ MORE ABOUT kwargs
