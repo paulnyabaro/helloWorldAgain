@@ -1,6 +1,7 @@
 import math
 from math import *
 
+# Avoid using import * when working on serious applications
 print(globals())
 
 float_number = [1.3, 32.3, 432.23, 4234.43, 89.0]
