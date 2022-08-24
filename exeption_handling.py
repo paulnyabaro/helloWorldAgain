@@ -19,7 +19,9 @@ while True:
         print(20 / 0)
     except ZeroDivisionError:
         print('You can\'t divide by zero')
-        break
     else:
         print('Done')
-        break
+    finally:
+        print('Must print no matter what happerns')
+
+
