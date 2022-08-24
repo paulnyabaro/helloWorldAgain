@@ -7,3 +7,7 @@ while True:
 
     except TypeError:
         print('The entered value is not a digit')
+
+
+# Multiple excepts in the same statement
+# except(ValueError, TypeError)
