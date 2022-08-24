@@ -11,3 +11,15 @@ while True:
 
 # Multiple excepts in the same statement
 # except(ValueError, TypeError)
+
+# Using else in the exception statement
+
+while True:
+    try:
+        print(20 / 0)
+    except ZeroDivisionError:
+        print('You can\'t divide by zero')
+        break
+    else:
+        print('Done')
+        break
