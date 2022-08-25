@@ -22,6 +22,6 @@ while True:
     else:
         print('Done')
     finally:
-        print('Must print no matter what happerns')
+        print('Must print no matter what happens')
 
 
