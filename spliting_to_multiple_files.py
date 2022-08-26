@@ -12,3 +12,4 @@ fill_char = '*'
 width = 25
 s = 'Python'
 print(f'{s:{fill_char}{align}{width}}')
+
