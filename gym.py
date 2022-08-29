@@ -17,3 +17,6 @@ print(next(numbers_iter))
 print(next(numbers_iter))
 print(next(numbers_iter))
 # If you print one more, you are going to encounter a StopIteration exception
+
+
+# We can as well use the try and catch to prevent code disruption once we encounter the StopIteration exception
