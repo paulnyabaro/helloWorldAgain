@@ -8,4 +8,4 @@ def collatz(num):
             print(int(num))
 
 
-collatz(300)
+collatz(30)
