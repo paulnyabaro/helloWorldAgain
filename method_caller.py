@@ -11,3 +11,6 @@ print(a_words)
 # Using next functions
 first_word = next(a_words)
 print(first_word)
+
+# Stop iteration exception
+# This is raised when there are no more items in the iterator
