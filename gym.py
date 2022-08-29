@@ -1,7 +1,7 @@
 import itertools
 
-gym_days = itertools.cycle(['Monday', 'Wednesday', 'friday'])
-exercises = itertools.cycle(['Push ups', 'Pull ups', 'Squats', 'Handstand Push ups', 'Dips', 'Traditional sit ups'])
+gym_days = itertools.cycle(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
+exercises = itertools.cycle(['Push ups', 'Pull ups', 'Squats', 'Handstand Push ups', 'Dips'])
 
 for days in range(1, 30):
-    print(f'For day {days}: {next(gym_days)} do {next(exercises)} exercise')
+    print(f'Day {days}: ({next(gym_days)}) do {next(exercises)} exercise')
