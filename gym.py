@@ -16,3 +16,4 @@ print(next(numbers_iter))
 print(next(numbers_iter))
 print(next(numbers_iter))
 print(next(numbers_iter))
+# If you print one more, you are going to encounter a StopIteration exception
