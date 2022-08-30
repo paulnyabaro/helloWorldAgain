@@ -6,3 +6,6 @@ except LookupError as ex:
     print(f"Error: {ex}")
     print(type(ex))
 
+# Raising exceptions
+# we can use the keyword raise
+raise ValueError
