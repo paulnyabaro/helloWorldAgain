@@ -8,4 +8,7 @@ except LookupError as ex:
 
 # Raising exceptions
 # we can use the keyword raise
-raise ValueError
+raise TimeoutError('This is just an exception for no reason')
+
+
+# The message put in the parenthesis will be shown once the exception is shown
