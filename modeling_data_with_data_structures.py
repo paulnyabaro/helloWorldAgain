@@ -7,7 +7,7 @@ def total_brought(guests, item):
     num_brought = 0
     for k, v in guests.items():
         num_brought = num_brought + v.get(item, 0)
-        return num_brought
+    return num_brought
 
 
 print('Number of things being brought:')
