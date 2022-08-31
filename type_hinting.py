@@ -14,4 +14,7 @@ print(height_cm)
 names: List = ["Liz", "Rick", "Jerry"]
 names_two: List[str] = ["Summer", "Morty", "Beth"]
 
+# We can also use Union on lists ->
+names_three: List[Union[str, int]] = ["x", 13, "camel", 0]
+
 print(names_two)
