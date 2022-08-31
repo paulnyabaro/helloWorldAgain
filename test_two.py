@@ -15,3 +15,6 @@ numbers_two = [1, 2, 3, 4]
 numbers_two.append(5)
 
 print(new_numbers == numbers_two)
+
+print('Remember, remember, the fifth of November.'.split())
+print('-'.join('There can be only one.'.split()))
