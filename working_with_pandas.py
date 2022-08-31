@@ -6,6 +6,8 @@ movies = {
     "year": (2010, 2003)
 }
 
-df = pd.DataFrame(movies)
+
+df = pd.DataFrame(movies).rename(columns={"year": "release_year"})
 
 print(df)
+print(df.head())
