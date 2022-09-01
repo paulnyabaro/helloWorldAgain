@@ -68,3 +68,6 @@ emailRegex = re.compile(r'''(
     [a-zA-Z0-9.-]+
     (\.[a-zA-Z]{2,4})
 )''', re.VERBOSE)
+
+# Important note
+"""File names are case sensitive on linux but not on Wondows and OSX"""
