@@ -22,3 +22,5 @@ print(mo_two.groups())
 batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
 mo_three = batRegex.search('Batmobile lost a wheel')
 print(mo_three.group())
+
+# ? is used for optional expressions * for zero or more occurences
