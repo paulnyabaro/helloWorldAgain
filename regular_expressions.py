@@ -37,7 +37,7 @@ The {n} matches exactly n of the preceding group.
 The {n,} matches n or more of the preceding group.
 The {,m} matches 0 to m of the preceding group.
 The {n,m} matches at least n and at most m of the preceding group.
-{n,m}? or *? or +? performs a nongreedy match of the preceding group.
+{n,m}? or *? or +? performs a non-greedy match of the preceding group.
 ^spam means the string must begin with spam.
 spam$ means the string must end with spam.
 The . matches any character, except newline characters.
