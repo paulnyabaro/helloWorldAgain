@@ -46,3 +46,16 @@ The . matches any character, except newline characters.
 respectively.
 [abc] matches any character between the brackets (such as a, b, or c).
 [^abc] matches any character that isn’t between the brackets."""
+
+# sub() is used to substitute string in re
+# ignore spaces in order to write an easy-to-read expression
+phoneRegex = re.compile(r'((\d{3}|\(\d{3}\))?(\s|-|\.)?\d{3}(\s|-|\.)\d{4}(\s*(ext|x|ext.)\s*\d{2,5})?)')
+# can be written like with triple quote
+phoneTwoRegex = re.compile(r'''(
+(\d{3}|\(\d{3}\))?
+(\s|-|\.)?
+\d{3}
+(\s|-|\.)
+\d{4}
+(\s*(ext|x|ext.)\s*\d{2,5})?
+)''', re.VERBOSE)
