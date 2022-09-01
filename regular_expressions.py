@@ -77,3 +77,4 @@ emailRegex = re.compile(r'''(
 # For code to work on all OSs we write is as:
 # import os
 # os.path.join('usr', 'bin', 'spam')
+# shelve modules enable users save variables
