@@ -59,3 +59,12 @@ phoneTwoRegex = re.compile(r'''(
 \d{4}
 (\s*(ext|x|ext.)\s*\d{2,5})?
 )''', re.VERBOSE)
+
+
+# Regular expression for finding an email address
+emailRegex = re.compile(r'''(
+    [a-zA-Z0-9._%+-]+
+    @
+    [a-zA-Z0-9.-]+
+    (\.[a-zA-Z]{2,4})
+)''', re.VERBOSE)
