@@ -17,3 +17,8 @@ print(mo_two.group(2))
 print(mo_two.group(0))
 print(mo_two.group())
 print(mo_two.groups())
+
+
+batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
+mo_three = batRegex.search('Batmobile lost a wheel')
+print(mo_three.group())
