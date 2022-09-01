@@ -23,4 +23,5 @@ batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
 mo_three = batRegex.search('Batmobile lost a wheel')
 print(mo_three.group())
 
-# ? is used for optional expressions * for zero or more occurences
+# ? is used for optional expressions * for zero or more occurrences + is for 1 or more occurrences
+# (wo){4} or (wo){2,4} for repeting the pattern the number of times
