@@ -70,4 +70,10 @@ emailRegex = re.compile(r'''(
 )''', re.VERBOSE)
 
 # Important note
-"""File names are case sensitive on linux but not on Wondows and OSX"""
+"""
+- File names are case sensitive on Linux but not on Windows and OSX
+- Paths on windows are written using backslashes(\) but with forward(/) in OSX and Linux
+"""
+# For code to work on all OSs we write is as:
+# import os
+# os.path.join('usr', 'bin', 'spam')
