@@ -2,6 +2,7 @@ import pygame
 
 pygame.init()
 
+pygame.display.set_caption('My first pygame')
 screen = pygame.display.set_mode([640, 480])
 
 def main():
