@@ -6,303 +6,303 @@ Period:
 
                     State Capitals Quiz (Form 1)
 
-1. What is the capital of Nebraska?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+1. What is the capital of Idaho?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-2. What is the capital of Florida?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+2. What is the capital of Colorado?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-3. What is the capital of Oklahoma?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+3. What is the capital of New York?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-4. What is the capital of Pennsylvania?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+4. What is the capital of Hawaii?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-5. What is the capital of Michigan?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+5. What is the capital of Oregon?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-6. What is the capital of Montana?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+6. What is the capital of Pennsylvania?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-7. What is the capital of Wyoming?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+7. What is the capital of New Hampshire?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-8. What is the capital of New Mexico?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+8. What is the capital of North Carolina?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-9. What is the capital of South Carolina?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+9. What is the capital of Montana?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-10. What is the capital of Georgia?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+10. What is the capital of Mississippi?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-11. What is the capital of Nevada?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+11. What is the capital of Maryland?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-12. What is the capital of North Carolina?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+12. What is the capital of South Dakota?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-13. What is the capital of Virginia?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+13. What is the capital of Wisconsin?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-14. What is the capital of Wisconsin?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+14. What is the capital of Michigan?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-15. What is the capital of Texas?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+15. What is the capital of Tennessee?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-16. What is the capital of Iowa?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+16. What is the capital of Nebraska?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-17. What is the capital of New Jersey?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+17. What is the capital of New Mexico?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-18. What is the capital of Vermont?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+18. What is the capital of North Dakota?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-19. What is the capital of New York?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+19. What is the capital of Utah?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-20. What is the capital of Massachusetts?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+20. What is the capital of Florida?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-21. What is the capital of Washington?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+21. What is the capital of Missouri?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-22. What is the capital of Minnesota?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+22. What is the capital of Louisiana?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-23. What is the capital of Maryland?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+23. What is the capital of California?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-24. What is the capital of Arkansas?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+24. What is the capital of Nevada?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-25. What is the capital of Louisiana?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+25. What is the capital of Kansas?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-26. What is the capital of Idaho?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+26. What is the capital of New Jersey?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-27. What is the capital of North Dakota?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+27. What is the capital of Minnesota?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-28. What is the capital of Illinois?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+28. What is the capital of Virginia?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-29. What is the capital of Rhode Island?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+29. What is the capital of Texas?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-30. What is the capital of Utah?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+30. What is the capital of Alaska?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-31. What is the capital of Hawaii?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+31. What is the capital of Georgia?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-32. What is the capital of Delaware?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+32. What is the capital of South Carolina?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-33. What is the capital of Maine?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+33. What is the capital of Wyoming?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-34. What is the capital of Alaska?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+34. What is the capital of Rhode Island?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-35. What is the capital of Colorado?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+35. What is the capital of Connecticut?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-36. What is the capital of Arizona?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+36. What is the capital of Massachusetts?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-37. What is the capital of Oregon?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+37. What is the capital of Oklahoma?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-38. What is the capital of Indiana?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+38. What is the capital of Arkansas?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-39. What is the capital of Mississippi?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+39. What is the capital of Vermont?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-40. What is the capital of Alabama?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+40. What is the capital of West Virginia?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-41. What is the capital of New Hampshire?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+41. What is the capital of Arizona?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-42. What is the capital of Ohio?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+42. What is the capital of Alabama?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-43. What is the capital of California?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+43. What is the capital of Maine?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-44. What is the capital of Kentucky?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+44. What is the capital of Delaware?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-45. What is the capital of South Dakota?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+45. What is the capital of Illinois?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-46. What is the capital of Missouri?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+46. What is the capital of Iowa?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-47. What is the capital of Kansas?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+47. What is the capital of Kentucky?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-48. What is the capital of West Virginia?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+48. What is the capital of Ohio?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-49. What is the capital of Connecticut?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+49. What is the capital of Washington?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
-50. What is the capital of Tennessee?
-A. Atlanta
-B. Lincoln
-C. Tallahassee
-D. Springfield
+50. What is the capital of Indiana?
+A. Annapolis
+B. Santa Fe
+C. Boise
+D. Jackson
 
