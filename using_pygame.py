@@ -4,6 +4,9 @@ pygame.init()
 
 pygame.display.set_caption('My first pygame')
 screen = pygame.display.set_mode([640, 480])
+screen.fill([73, 29, 43])
+
+pygame.display.update()
 
 def main():
     while True:
