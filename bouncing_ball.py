@@ -29,6 +29,21 @@ def main():
         pygame.draw.circle(screen, BALL_COLOUR, ball_position, BALL_RADIUS)
         pygame.display.update()
 
+        # Check for left and right collisions
+        if ball_position[0] - BALL_RADIUS < 0:
+            ball_velocity[0] = -ball_velocity[0]
+        elif ball_position[0] + BALL_RADIUS > screen.get_width():
+            ball_velocity[0] = -ball_velocity[0]
+
+        # Check for top and bottom collisions
+        if ball_position[1] - BALL_RADIUS < 0:
+            ball_velocity[1] = -ball_velocity[1]
+        elif ball_position[1] + BALL_RADIUS > screen.get_height():
+            ball_velocity[1] = -ball_velocity[1]
+
+        ball_position[0] += ball_velocity[0]
+        ball_position[1] += ball_velocity[1]
+
         clock.tick(60)
 
 main()
