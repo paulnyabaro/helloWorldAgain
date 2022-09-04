@@ -11,3 +11,10 @@ def factorial(n):
     return total
 print(factorial(5))
 logging.debug('End of program')
+
+# Some logging messages levels
+logging.debug('Some debugging details.')
+logging.info('The logging module is working.')
+logging.warning('An error message is about to be logged.')
+logging.error('An error has occurred.')
+logging.critical('The program is unable to recover!')
