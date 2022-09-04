@@ -18,3 +18,8 @@ logging.info('The logging module is working.')
 logging.warning('An error message is about to be logged.')
 logging.error('An error has occurred.')
 logging.critical('The program is unable to recover!')
+
+# After developing your program
+# some more, you may be interested only in errors. In that case, you can set
+# basicConfig()’s level argument to logging.ERROR. This will show only ERROR
+# and CRITICAL messages and skip the DEBUG, INFO, and WARNING messages.
