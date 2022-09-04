@@ -1,8 +1,8 @@
 import traceback
 try:
-    raise Exception('This is the error message.')
+    raise Exception('An error occurred')
 except:
-    errorFile = open('errorInfo.txt', 'w')
-    errorFile.write(traceback.format_exc())
+    errorFile = open('errorLog.txt', 'w')
+    print(errorFile.write(traceback.format_exc()))
     errorFile.close()
-    print('The traceback info was written to errorInfo.txt.')
+    print('The traceback info was written to errorLog')
