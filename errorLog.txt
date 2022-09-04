@@ -2,3 +2,7 @@ Traceback (most recent call last):
   File "/home/barrow/PycharmProjects/helloWorldAgain/debugging_example.py", line 3, in <module>
     raise Exception('An error occurred')
 Exception: An error occurred
+Traceback (most recent call last):
+  File "/home/barrow/PycharmProjects/helloWorldAgain/debugging_example.py", line 3, in <module>
+    raise Exception('An error occurred')
+Exception: An error occurred
