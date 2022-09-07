@@ -8,3 +8,7 @@ print(res)
 webContent = bs4.BeautifulSoup(res.text)
 print(type(webContent))
 
+#Passing an html page locally
+# exampleFile = open('example.html')
+# exampleSoup = bs4.BeautifulSoup(exampleFile)
+# type(exampleSoup)
