@@ -18,5 +18,6 @@ print(res.text[:250])
 playFile = open('RomeoAndJuliet.txt', 'wb')
 for chunk in res.iter_content(100000):
     playFile.write(chunk)
+    # The iter_content() method returns “chunks” of the content on each iteration through the loop
 
 playFile.close()
