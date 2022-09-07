@@ -15,3 +15,6 @@ print(type(webContent))
 
 # Soup select
 # soup.select('div')
+
+links = webContent.select('a')
+print(links)
