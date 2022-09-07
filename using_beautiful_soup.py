@@ -12,3 +12,6 @@ print(type(webContent))
 # exampleFile = open('example.html')
 # exampleSoup = bs4.BeautifulSoup(exampleFile)
 # type(exampleSoup)
+
+# Soup select
+# soup.select('div')
