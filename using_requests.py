@@ -14,6 +14,7 @@ print(res.text[:250])
 
 # Writing to a file
 # the b in wb stands for binary
+# data instead of text data in order to maintain the Unicode encoding of the text
 playFile = open('RomeoAndJuliet.txt', 'wb')
 for chunk in res.iter_content(100000):
     playFile.write(chunk)
