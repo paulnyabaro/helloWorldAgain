@@ -1,7 +1,6 @@
 import requests, bs4
 
-res = requests.get('https://kipkatam.com')
-# res = requests.get('http://nostarch.com')
+res = requests.get('https://www.jumia.co.ke/huawei-y5-lite-5.45-16gb-1gb-ram-3020-mah-single-sim-blue-72050054.html')
 print(res.raise_for_status())
 print(res)
 
@@ -16,5 +15,5 @@ print(type(webContent))
 # Soup select
 # soup.select('div')
 
-links = webContent.select('a')
+links = webContent.select('.-b.-ltr.-tal.-fs24')
 print(links)
