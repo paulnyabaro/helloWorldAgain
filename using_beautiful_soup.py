@@ -15,5 +15,8 @@ print(type(webContent))
 # Soup select
 # soup.select('div')
 
-links = webContent.select('.-b.-ltr.-tal.-fs24')
-print(links)
+item_name = webContent.select('h1')
+item_price = webContent.select('.-b.-ltr.-tal.-fs24')
+print(item_name)
+print(item_price)
+# print(f'The price for {item_name} is {item_price}')
