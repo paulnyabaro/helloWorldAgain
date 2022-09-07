@@ -9,5 +9,5 @@ res.raise_for_status()
 print(res)
 
 search_result = bs4.BeautifulSoup(res.text)
-link_elements = search_result.select('.g')
+link_elements = search_result.select('a')
 print(link_elements)
