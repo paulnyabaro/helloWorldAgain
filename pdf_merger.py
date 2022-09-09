@@ -9,3 +9,7 @@
 #
 # merger.write('newfile.pdf')
 # merger.close()
+
+
+# Merging specific pages
+# merger.append('three.pdf', pages=(0, 4, 1)) -> just like range
