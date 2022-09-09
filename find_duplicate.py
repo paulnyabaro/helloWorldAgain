@@ -1,4 +1,5 @@
-# Finding duplicate numbers
+# Finding at least one duplicate number
+# The first one to repeat
 def find_duplicate(num):
     tortoise = num[0]
     hare = num[0]
