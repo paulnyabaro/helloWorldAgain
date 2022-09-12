@@ -8,7 +8,7 @@ print(wb.sheetnames) # The new function
 
 # get_column_letter(900)
 
-# Getting rows and columns for the sheets
+# Getting rows and columns from the sheets
 sheet = wb.get_sheet_by_name('Sheet1')
 tuple(sheet['A1':'C3'])
 for rowOfCellObjects in sheet['A1':'C3']:
