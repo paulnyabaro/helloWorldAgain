@@ -53,7 +53,7 @@ for rowOfCellObjects in sheet['A1':'C3']:
 # sheet.unmerge_cells('A1:D3')
 # sheet.unmerge_cells('C5:D5')
 
-# Freezing panes
+# Freezing panes means always visible no matter the scroll, good for titles
 # sheet.freeze_panes = 'A2'Row 1
 # sheet.freeze_panes = 'B1'Column A
 # sheet.freeze_panes = 'C1'Columns A and B
