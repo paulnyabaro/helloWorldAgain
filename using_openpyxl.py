@@ -20,3 +20,6 @@ for rowOfCellObjects in sheet['A1':'C3']:
 # Writing to a file
 # resultFile = open('census2010.py', 'w')
 # resultFile.write('allData = ' + pprint.pformat(countyData))
+
+# Creating a new blank workbook object
+# openpyxl.Workbook()
