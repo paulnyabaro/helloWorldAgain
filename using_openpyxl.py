@@ -23,3 +23,6 @@ for rowOfCellObjects in sheet['A1':'C3']:
 
 # Creating a new blank workbook object
 # openpyxl.Workbook()
+
+# Creating and removing sheets
+# use create_sheet() and remove_sheet() functions
