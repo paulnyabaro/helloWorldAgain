@@ -44,3 +44,6 @@ for rowOfCellObjects in sheet['A1':'C3']:
 
 # * Might be useful
 # Columns with widths of 0 or rows with heights of 0 are hidden from the user
+
+# Merging cells
+# merge_cells()
