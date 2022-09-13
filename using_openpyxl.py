@@ -41,3 +41,6 @@ for rowOfCellObjects in sheet['A1':'C3']:
 # sheet['A1'] = 200
 # sheet['A2'] = 300
 # sheet['A3'] = '=SUM(A1:A2)'
+
+# * Might be useful
+# Columns with widths of 0 or rows with heights of 0 are hidden from the user
