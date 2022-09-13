@@ -58,3 +58,6 @@ for rowOfCellObjects in sheet['A1':'C3']:
 # sheet.freeze_panes = 'B1'Column A
 # sheet.freeze_panes = 'C1'Columns A and B
 # sheet.freeze_panes = 'C2'Row 1 and columns A and B
+
+# drawing chats
+# chartObj = openpyxl.charts.BarChart()
