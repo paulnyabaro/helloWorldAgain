@@ -47,3 +47,4 @@ for rowOfCellObjects in sheet['A1':'C3']:
 
 # Merging cells
 # merge_cells()
+# sheet.merge_cells('A1:D3') or sheet.merge_cells('C5:D5')
