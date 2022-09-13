@@ -52,3 +52,9 @@ for rowOfCellObjects in sheet['A1':'C3']:
 # Unmerge cells
 # sheet.unmerge_cells('A1:D3')
 # sheet.unmerge_cells('C5:D5')
+
+# Freezing panes
+# sheet.freeze_panes = 'A2'Row 1
+# sheet.freeze_panes = 'B1'Column A
+# sheet.freeze_panes = 'C1'Columns A and B
+# sheet.freeze_panes = 'C2'Row 1 and columns A and B
