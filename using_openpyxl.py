@@ -48,3 +48,7 @@ for rowOfCellObjects in sheet['A1':'C3']:
 # Merging cells
 # merge_cells()
 # sheet.merge_cells('A1:D3') or sheet.merge_cells('C5:D5')
+
+# Unmerge cells
+# sheet.unmerge_cells('A1:D3')
+# sheet.unmerge_cells('C5:D5')
