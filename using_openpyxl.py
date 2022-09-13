@@ -26,3 +26,6 @@ for rowOfCellObjects in sheet['A1':'C3']:
 
 # Creating and removing sheets
 # use create_sheet() and remove_sheet() functions
+
+# using different fonts in excel files
+# from openpyxl.styles import Font, Style
