@@ -36,3 +36,8 @@ for rowOfCellObjects in sheet['A1':'C3']:
 # sheet = wb.get_sheet_by_name('Sheet')
 # italic24Font = Font(size=24, italic=True)
 # styleObj = Style(font=italic24Font)
+
+# Setting values of cells from Python to Excel
+# sheet['A1'] = 200
+# sheet['A2'] = 300
+# sheet['A3'] = '=SUM(A1:A2)'
