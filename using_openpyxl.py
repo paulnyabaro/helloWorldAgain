@@ -17,3 +17,6 @@ for rowOfCellObjects in sheet['A1':'C3']:
         print(cellObj.coordinate, cellObj.value)
     print('--- END OF ROW ---')
 
+# Writing to a file
+# resultFile = open('census2010.py', 'w')
+# resultFile.write('allData = ' + pprint.pformat(countyData))
