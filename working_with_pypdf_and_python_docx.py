@@ -1,5 +1,5 @@
 import PyPDF2
-pdfFileObj = open('example_pdf.pdf', 'rb')
+pdfFileObj = open('example_pdf.pdf', 'rb') # Read in binary mode as we write in binary mode
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 print(pdfReader.numPages)
 pageObj = pdfReader.getPage(0)
