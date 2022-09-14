@@ -8,3 +8,5 @@ print(pageObj.extractText())
 
 # Decrypting a password-protected PDF file
 # pdfReader.decrypt('rosebud') # pass in the password
+
+# You can add watermarks to PDF files by overlaying content using PyPDF module
