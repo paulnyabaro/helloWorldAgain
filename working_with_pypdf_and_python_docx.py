@@ -5,3 +5,6 @@ print(pdfReader.numPages)
 pageObj = pdfReader.getPage(0) # The first page is 0 and the second 1 PyPDF2 uses a zero-based index for getting pages
 
 print(pageObj.extractText())
+
+# Decrypting a password-protected PDF file
+# pdfReader.decrypt('rosebud') # pass in the password
