@@ -14,3 +14,4 @@ doc.save('helloworld.docx')
 
 # Adding pictures
 # doc.add_picture('zophie.png', width=docx.shared.Inches(1), height=docx.shared.Cm(4))
+# can also use docx.shared.Inches() and docx.shared.Cm() to specify image height and width
