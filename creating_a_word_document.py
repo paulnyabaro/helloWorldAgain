@@ -11,3 +11,6 @@ doc.save('helloworld.docx')
 
 # Adding page breaks
 # doc.paragraphs[0].runs[0].add_break(docx.text.WD_BREAK.PAGE)
+
+# Adding pictures
+# doc.add_picture('zophie.png', width=docx.shared.Inches(1), height=docx.shared.Cm(4))
