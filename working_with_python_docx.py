@@ -44,3 +44,6 @@ print(doc.paragraphs[0].text)
 # 'Subtitle'
 # 'TOCHeading'
 # 'Title'
+
+# Applying styling
+# doc.paragraphs[1].runs[1].underline = True
