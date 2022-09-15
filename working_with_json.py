@@ -1,4 +1,4 @@
-import json, requests, sys
+import json, requests
 
 # string_of_json_data = open('string_of_json_data.json')
 #
@@ -11,3 +11,5 @@ response.raise_for_status()
 
 # Then load the data using json.loads()
 # And finally print it using pprint.pprint()
+
+weather_data = json.loads(response.text)
