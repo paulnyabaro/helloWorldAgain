@@ -14,4 +14,4 @@ example_data = list(example_reader)
 # A Writer object lets you write data to a CSV file
 output_file = open('output.csv', 'w', newline='')
 output_writer = csv.writer(output_file)
-output_writer.writerow(['spam', 'eggs', 'bacon', 'ham'])
+print(output_writer.writerow(['spam', 'eggs', 'bacon', 'ham']))
