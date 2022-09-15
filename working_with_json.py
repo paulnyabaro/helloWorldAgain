@@ -8,3 +8,6 @@ import json, requests, sys
 url ='http://api.openweathermap.org/data/2.5/forecast/daily?q=%s&cnt=3'
 response = requests.get(url)
 response.raise_for_status()
+
+# Then load the data using json.loads()
+# And finally print it using pprint.pprint()
