@@ -20,3 +20,5 @@ print(output_writer.writerow([1, 2, 3.141592, 4]))
 
 # Changing the delimiter and making the spacing double
 # output_writer = csv.writer(output_file, delimiter='\t', lineterminator='\n\n')
+
+# .tsv --> tab separated value. just like csv but with tabs as delimiter
