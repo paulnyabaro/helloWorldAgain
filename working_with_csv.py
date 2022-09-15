@@ -8,3 +8,7 @@ for row in example_reader:
 example_data = list(example_reader)
 # print(example_data)
 # print(example_data[0][0])
+
+
+# Writer Objects
+# A Writer object lets you write data to a CSV file
