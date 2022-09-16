@@ -71,3 +71,7 @@ print(today.strftime("%B of %y"))
 # Converting string to datetime
 conv_date = datetime.datetime.strptime('October 21, 2015', '%B %d, %Y')
 print(conv_date)
+
+# datetime.datetime.strptime('2015/10/21 16:29:00', '%Y/%m/%d %H:%M:%S')
+# datetime.datetime.strptime("October of '15", "%B of '%y")
+# datetime.datetime.strptime("November of '63", "%B of '%y")
