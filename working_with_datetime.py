@@ -67,3 +67,7 @@ today = datetime.datetime.now()
 print(today.strftime('%Y/%m/%d %H:%M:%S'))
 print(today.strftime('%I:%M %p'))
 print(today.strftime("%B of %y"))
+
+# Converting string to datetime
+conv_date = datetime.datetime.strptime('October 21, 2015', '%B %d, %Y')
+print(conv_date)
