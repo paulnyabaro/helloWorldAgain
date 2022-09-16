@@ -25,3 +25,6 @@ print(calc.wait())
 
 # Opening files with default applications
 # subprocess.Popen(['start', 'hello.txt'], shell=True)  # shell=True is only needed in windows
+
+# start if for windows and ubuntu, open is for OSX
+# subprocess.Popen(['open', '/Applications/Calculator.app/'])
