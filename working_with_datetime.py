@@ -43,3 +43,22 @@ while datetime.datetime.now() < halloween2016:
     time.sleep(1)
 else:
     print('Not time to sleep')
+
+
+# strftime directiveMeaning
+# %YYear with century, as in '2014'
+# %yYear without century, '00' to '99' (1970 to 2069)
+# %mMonth as a decimal number, '01' to '12'
+# %BFull month name, as in 'November'
+# %bAbbreviated month name, as in 'Nov'
+# %dDay of the month, '01' to '31'
+# %jDay of the year, '001' to '366'
+# %wDay of the week, '0' (Sunday) to '6' (Saturday)
+# %AFull weekday name, as in 'Monday'
+# %aAbbreviated weekday name, as in 'Mon'
+# %HHour (24-hour clock), '00' to '23'
+# %IHour (12-hour clock), '01' to '12'
+# %MMinute, '00' to '59'
+# %SSecond, '00' to '59'
+# %p'AM' or 'PM'
+# %%Literal '%' character
