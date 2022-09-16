@@ -5,4 +5,5 @@ while timeLeft > 0:
     time.sleep(1)
     timeLeft -= 1
 else:
+    # subprocess.Popen(['start', 'alarm.wav'])
     print('Time is up')
