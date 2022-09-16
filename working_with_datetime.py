@@ -21,4 +21,4 @@ print(datetime.datetime.fromtimestamp(time.time()))
 # Timedelta
 delta = datetime.timedelta(days=11, hours=10, minutes=9, seconds=8)
 print(delta.days, delta.seconds, delta.microseconds)
-delta.total_seconds()
+print(delta.total_seconds())
