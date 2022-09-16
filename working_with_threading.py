@@ -13,4 +13,7 @@ thread_obj.start()
 print('End of the program')
 
 # Starting other programs
-# Popen() function in the built-in subprocess module starts other programs
+# Popen() function in the built-in subprocess module starts other programs (p -> process, then open)
+import subprocess
+subprocess.Popen('/usr/bin/gnome-calculator')
+
