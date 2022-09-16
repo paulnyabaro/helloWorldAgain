@@ -9,3 +9,6 @@ print(dt.day)
 print(dt.hour)
 print(dt.minute)
 print(dt.second)
+
+
+print(f'Time passed since I created this code: {datetime.datetime.now() - dt}')
