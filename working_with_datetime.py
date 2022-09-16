@@ -1,4 +1,5 @@
 import datetime
+import time
 
 print(datetime.datetime.now())
 dt = datetime.datetime(2022, 9, 16, 5, 28, 39)
@@ -15,3 +16,4 @@ print(f'Time passed since I created this code: {datetime.datetime.now() - dt}')
 
 # converting from timestamp
 print(datetime.datetime.fromtimestamp(1000000000))
+print(datetime.datetime.fromtimestamp(time.time()))
