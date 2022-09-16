@@ -16,4 +16,6 @@ print('End of the program')
 # Popen() function in the built-in subprocess module starts other programs (p -> process, then open)
 import subprocess
 subprocess.Popen('/usr/bin/gnome-calculator')
-
+calc = subprocess.Popen('/usr/bin/gnome-calculator')
+print(calc.poll())
+print(calc.wait())
