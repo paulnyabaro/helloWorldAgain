@@ -24,4 +24,4 @@ print(calc.wait())
 # subprocess.Popen(['C:\\Windows\\notepad.exe', 'C:\\hello.txt'])
 
 # Opening files with default applications
-# subprocess.Popen(['start', 'hello.txt'], shell=True)
+# subprocess.Popen(['start', 'hello.txt'], shell=True)  # shell=True is only needed in windows
