@@ -5,3 +5,5 @@ for i in range(3):
     time.sleep(1)
     print('Tock')
     time.sleep(1)
+
+time.sleep(5) # Next prompt wont appear until this time has passed
