@@ -62,3 +62,6 @@ else:
 # %S Second, '00' to '59'
 # %p 'AM' or 'PM'
 # %% Literal '%' character
+
+today = datetime.datetime.now()
+print(today.strftime('%Y/%m/%d %H:%M:%S'))
