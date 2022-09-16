@@ -20,5 +20,8 @@ calc = subprocess.Popen('/usr/bin/gnome-calculator')
 print(calc.poll())
 print(calc.wait())
 
-# Opening a file with the respective application
+# Opening a file with the specific application
 # subprocess.Popen(['C:\\Windows\\notepad.exe', 'C:\\hello.txt'])
+
+# Opening files with default applications
+# subprocess.Popen(['start', 'hello.txt'], shell=True)
