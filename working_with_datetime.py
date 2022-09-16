@@ -12,3 +12,6 @@ print(dt.second)
 
 
 print(f'Time passed since I created this code: {datetime.datetime.now() - dt}')
+
+# converting from timestamp
+print(datetime.datetime.fromtimestamp(1000000000))
