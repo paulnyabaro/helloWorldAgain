@@ -3,4 +3,6 @@ timeLeft = 60
 while timeLeft > 0:
     print(timeLeft)
     time.sleep(1)
-    timeLeft = timeLeft - 1
+    timeLeft -= 1
+else:
+    print('Time is up')
