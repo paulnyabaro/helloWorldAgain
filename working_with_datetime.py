@@ -65,3 +65,5 @@ else:
 
 today = datetime.datetime.now()
 print(today.strftime('%Y/%m/%d %H:%M:%S'))
+print(today.strftime('%I:%M %p'))
+print(today.strftime("%B of %y"))
