@@ -22,3 +22,10 @@ print(datetime.datetime.fromtimestamp(time.time()))
 delta = datetime.timedelta(days=11, hours=10, minutes=9, seconds=8)
 print(delta.days, delta.seconds, delta.microseconds)
 print(delta.total_seconds())
+
+# The datetime.timedelta() function takes keyword arguments weeks, days, hours,
+# minutes, seconds, milliseconds, and microseconds.
+
+# There is no month or year key-
+# word argument because “a month” or “a year” is a variable amount of time
+# depending on the particular month or year.
