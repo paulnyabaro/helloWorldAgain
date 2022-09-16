@@ -26,6 +26,10 @@ print(delta.total_seconds())
 # The datetime.timedelta() function takes keyword arguments weeks, days, hours,
 # minutes, seconds, milliseconds, and microseconds.
 
-# There is no month or year key-
-# word argument because “a month” or “a year” is a variable amount of time
+# There is no month or year key-word argument because “a month” or “a year” is a variable amount of time
 # depending on the particular month or year.
+
+# Get the date of the day 1000 days from now
+dt = datetime.datetime.now()
+thousand_days = datetime.timedelta(days=1000)
+print(dt + thousand_days)
