@@ -16,3 +16,16 @@ prod = calcProd()
 endTime = time.time()
 print('The result is %s digits long.' % (len(str(prod))))
 print('Took %s seconds to calculate.' % (endTime - startTime))
+
+# Working with sleep
+for i in range(3):
+    print('Tick')
+    time.sleep(1)
+    print('Tock')
+    time.sleep(1)
+
+time.sleep(5) # Next prompt wont appear until this time has passed
+# ctrl -C will not interrupt time.sleep() calls
+
+# except KeyboardInterrupt:
+# We handle this to prevent the program from crashing
