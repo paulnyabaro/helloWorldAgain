@@ -18,7 +18,7 @@ print(f'Time passed since I created this code: {datetime.datetime.now() - dt}')
 print(datetime.datetime.fromtimestamp(1000000000))
 print(datetime.datetime.fromtimestamp(time.time()))
 
-# Timedelta
+# Timedelta --> Represents a duration rather than moment in time
 delta = datetime.timedelta(days=11, hours=10, minutes=9, seconds=8)
 print(delta.days, delta.seconds, delta.microseconds)
 print(delta.total_seconds())
