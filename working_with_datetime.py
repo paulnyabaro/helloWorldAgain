@@ -33,3 +33,13 @@ print(delta.total_seconds())
 dt = datetime.datetime.now()
 thousand_days = datetime.timedelta(days=1000)
 print(dt + thousand_days)
+
+
+# Using sleep to pause a program until a certain time is reached
+import datetime
+import time
+halloween2016 = datetime.datetime(2016, 10, 31, 0, 0, 0)
+while datetime.datetime.now() < halloween2016:
+    time.sleep(1)
+else:
+    print('Not time to sleep')
