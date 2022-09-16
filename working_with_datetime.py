@@ -75,3 +75,10 @@ print(conv_date)
 # datetime.datetime.strptime('2015/10/21 16:29:00', '%Y/%m/%d %H:%M:%S')
 # datetime.datetime.strptime("October of '15", "%B of '%y")
 # datetime.datetime.strptime("November of '63", "%B of '%y")
+
+# Program to execute in the future
+import time, datetime
+startTime = datetime.datetime(2029, 10, 31, 0, 0, 0)
+while datetime.datetime.now() < startTime:
+    time.sleep(1)
+print('Program now starting on Halloween 2029')
