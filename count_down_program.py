@@ -6,5 +6,5 @@ while timeLeft > 0:
     time.sleep(1)
     timeLeft -= 1
 else:
-    subprocess.Popen(['start', 'alarm.wav'],shell=True)
+    subprocess.Popen(['xdg-open', '/home/barrow/PycharmProjects/helloWorldAgain/alarm.wav'])
     # print('Time is up')
