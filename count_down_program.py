@@ -1,5 +1,5 @@
 import time, subprocess
-timeLeft = 2
+timeLeft = 60
 while timeLeft > 0:
     print(timeLeft)
     time.sleep(1)
