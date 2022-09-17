@@ -6,7 +6,4 @@ while timeLeft > 0:
     time.sleep(1)
     timeLeft -= 1
 else:
-    file = subprocess.Popen(['xdg-open', 'alarm.wav'])
-    # print('Time is up')
-    file.wait(1)
-    file.kill()
+    subprocess.Popen(['xdg-open', 'alarm.wav'])
