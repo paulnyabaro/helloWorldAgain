@@ -11,6 +11,7 @@ print(smtpObj.ehlo())
 
 # Enabling encryption if using port 587 but if 465, encryption already established
 print(smtpObj.starttls())
-# smtpObj.login('cit2270312015@mmu.ac.ke', 'Pass1234')
-# smtpObj.sendmail('cit2270312015@mmu.ac.ke', 'barrowspace@gmail.com', 'Subject: Testing smtplib module.\n'
-#                     'Hey there, am tryinto see if this is working')det
+print(smtpObj.login('example@mail.com', '12345678'))
+
+smtpObj.sendmail('example@mail.com', 'exampletwo@mail.com', 'Subject: Testing smtplib module.\n'
+                    'Hey there, am tryinto see if this is working')
