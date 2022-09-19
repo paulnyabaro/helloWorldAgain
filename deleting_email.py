@@ -69,3 +69,9 @@ rawMessages = imapObj.fetch([40041], ['BODY[]', 'FLAGS'])
 # 'OR search-key1
 # search-key2'Returns the messages that match either the first or second
 # search-key.
+
+
+# imapObj.search(['ALL'])
+# Returns every message in the currently
+# selected folder.
+# imapObj.search
