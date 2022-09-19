@@ -11,6 +11,8 @@ print(smtpObj.ehlo())
 
 # Enabling encryption if using port 587 but if 465, encryption already established
 print(smtpObj.starttls())
+
+# This is a more secure method than storing them on the code
 email_address = input('Enter your email address ')
 email_password = input('Enter password ')
 print(smtpObj.login(f'{email_address}', f'{email_password}'))
