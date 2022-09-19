@@ -13,6 +13,7 @@ print(smtpObj.ehlo())
 print(smtpObj.starttls())
 
 # This is a more secure method than storing them on the code
+# or what if I use a hashed format
 email_address = input('Enter your email address ')
 email_password = input('Enter password ')
 print(smtpObj.login(f'{email_address}', f'{email_password}'))
