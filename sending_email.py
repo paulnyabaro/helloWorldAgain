@@ -19,7 +19,8 @@ email_password = input('Enter password ')
 print(smtpObj.login(f'{email_address}', f'{email_password}'))
 
 # Multiple recipient emails can be added
-smtpObj.sendmail('example@mail.com', 'exampletwo@mail.com', 'Subject: Testing smtplib module.\n'
-                    'Hey there, am tryinto see if this is working')
+print(smtpObj.sendmail('example@mail.com', 'exampletwo@mail.com', 'Subject: Testing smtplib module.\n'
+                    'Hey there, am tryinto see if this is working'))
 
+# The result will be a dictionary of the delivery statuses to the recipient address(es)
 # '\n' separates the subject from the body
