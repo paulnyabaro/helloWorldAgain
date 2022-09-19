@@ -75,3 +75,6 @@ rawMessages = imapObj.fetch([40041], ['BODY[]', 'FLAGS'])
 # Returns every message in the currently
 # selected folder.
 # imapObj.search
+
+# Disconnecting from the server
+imapObj.logout()
