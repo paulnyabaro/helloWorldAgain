@@ -17,3 +17,6 @@ print(ImageColor.getcolor('red', 'RGBA'))
 print(ImageColor.getcolor('chocolate', 'RGBA'))
 print(ImageColor.getcolor('CornflowerBlue', 'RGBA'))
 print(ImageColor.getcolor('purple', 'RGBA'))
+# Pillow supports more than 100 color name
+
+# y-cordinates increase downwards
