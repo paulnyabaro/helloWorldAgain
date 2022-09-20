@@ -29,8 +29,17 @@ copied_image = cropped_image.copy()
 copied_image.save('copied-image.jpg')
 
 # Copying and pasting image on another image
-copy_paste_image = example_image.crop((25, 45, 665, 700))
-im.paste(copy_paste_image, (25, 45))
-im.paste(copy_paste_image, (200, 323))
+copy_paste_image = example_image.crop((25, 45, 565, 560))
+copied_image.paste(copy_paste_image, (0, 0))
+copied_image.paste(copy_paste_image, (200, 323))
 copy_paste_image.save('copy_paste_image.jpg')
 copy_paste_image.show()
+
+# Resizing images --> Returns new image
+# quarter_sized_image = catIm.resize((int(width / 2), int(height / 2)))
+
+# Rotating and flipping images --> Counterclockwise rotation
+# catIm.rotate(90).save('rotated90.png')
+# Notice that the width and height of the image change when the image
+# is rotated 90 or 270 degrees. If you rotate an image by some other amount,
+# the original dimensions of the image are maintained
