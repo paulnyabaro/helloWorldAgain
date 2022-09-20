@@ -12,7 +12,7 @@ print(example_image.format_description)
 # Saving the image in same or different format
 example_image.save('example-image-save.png')
 
-# using the new() method
+# using the new() method to create images
 from PIL import Image
 im = Image.new('RGBA', (100, 200), 'purple')
 im.save('purpleImage.png')
