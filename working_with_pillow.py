@@ -23,3 +23,7 @@ im2.save('transparentImage.png')
 cropped_image = example_image.crop((355, 345, 565, 560))
 cropped_image.save('cropped-image.jpg')
 cropped_image.show()
+
+# Copying image
+copied_image = cropped_image.copy()
+copied_image.save('copied-image.jpg')
