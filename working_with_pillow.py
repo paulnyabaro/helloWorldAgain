@@ -8,3 +8,6 @@ width, height = example_image.size
 print(f'The image dimensions are: height --> {height}, and width --> {width}')
 print(example_image.format)
 print(example_image.format_description)
+
+# Saving the image in same or different format
+example_image.save('example-image-save.png')
