@@ -62,5 +62,16 @@ copy_paste_image.show()
 # im = Image.new('RGBA', (200, 200), 'white')
 # draw = ImageDraw.Draw(im)
 
-# In adding watermark to images, don't forget the third parameter, otherwise the transparency will be replaces
+# You can draw points, lines, rectangles, ellipses, polygons, e.t.c
+# draw.line([(0, 0), (199, 0), (199, 199), (0, 199), (0, 0)], fill='black')
+# draw.rectangle((20, 30, 60, 60), fill='blue')
+# draw.ellipse((120, 30, 160, 60), fill='red')
+# draw.polygon(((57, 87), (79, 62), (94, 85), (120, 90), (103, 113))
+
+# Drawing text
+# from PIL import ImageFont
+# draw.text((20, 150), 'Hello', fill='purple')
+# draw.text((100, 150), 'Howdy', fill='gray', font=arialFont)
+
+# In adding watermark to images, don't forget the third parameter, otherwise the transparency will be replaced
 # with white pixels
