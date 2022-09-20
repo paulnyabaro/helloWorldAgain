@@ -58,3 +58,9 @@ copy_paste_image.show()
 #         im.putpixel((x, y), (210, 210, 210))
 
 # ImageDraw can be used to draw
+# from PIL import Image, ImageDraw
+# im = Image.new('RGBA', (200, 200), 'white')
+# draw = ImageDraw.Draw(im)
+
+# In adding watermark to images, don't forget the third parameter, otherwise the transparency will be replaces
+# with white pixels
