@@ -14,3 +14,6 @@ from PIL import ImageColor
 # RGB values represent color in computer programs.
 
 print(ImageColor.getcolor('red', 'RGBA'))
+print(ImageColor.getcolor('chocolate', 'RGBA'))
+print(ImageColor.getcolor('CornflowerBlue', 'RGBA'))
+print(ImageColor.getcolor('purple', 'RGBA'))
