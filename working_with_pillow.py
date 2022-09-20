@@ -18,3 +18,8 @@ im = Image.new('RGBA', (100, 200), 'purple')
 im.save('purpleImage.png')
 im2 = Image.new('RGBA', (20, 20))
 im2.save('transparentImage.png')
+
+# Cropping image
+cropped_image = example_image.crop((355, 345, 565, 560))
+cropped_image.save('cropped-image.jpg')
+cropped_image.show()
