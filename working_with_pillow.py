@@ -43,3 +43,9 @@ copy_paste_image.show()
 # Notice that the width and height of the image change when the image
 # is rotated 90 or 270 degrees. If you rotate an image by some other amount,
 # the original dimensions of the image are maintained
+# catIm.rotate(6, expand=True).save('rotated6_expanded.png')
+# --> to enlarge the dimensions of the image to fit the entire rotated new image
+
+# Flipping images
+# catIm.transpose(Image.FLIP_LEFT_RIGHT).save('horizontal_flip.png')
+# catIm.transpose(Image.FLIP_TOP_BOTTOM).save('vertical_flip.png')
