@@ -51,8 +51,10 @@ copy_paste_image.show()
 # catIm.transpose(Image.FLIP_TOP_BOTTOM).save('vertical_flip.png')
 
 # Changing Individual Pixels
-im = Image.new('RGBA', (100, 100))
-im.getpixel((0, 0))
-for x in range(100):
-    for y in range(50):
-        im.putpixel((x, y), (210, 210, 210))
+# im = Image.new('RGBA', (100, 100))
+# im.getpixel((0, 0))
+# for x in range(100):
+#     for y in range(50):
+#         im.putpixel((x, y), (210, 210, 210))
+
+# ImageDraw can be used to draw
