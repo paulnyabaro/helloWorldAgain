@@ -1,4 +1,4 @@
-import pillow
+from PIL import ImageColor
 
 # Important info
 # CMYK a nd RGB Coloring
@@ -12,3 +12,5 @@ import pillow
 # When combining light (such as the light given off by your computer screen),
 # red, green, and blue light can be combined to form any other color. This is why
 # RGB values represent color in computer programs.
+
+print(ImageColor.getcolor('red', 'RGBA'))
