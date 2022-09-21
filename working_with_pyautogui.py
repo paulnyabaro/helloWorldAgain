@@ -13,3 +13,6 @@ for i in range(5):
     pyautogui.moveTo(200, 100, duration=0.25)
     pyautogui.moveTo(200, 200, duration=0.25)
     pyautogui.moveTo(100, 200, duration=0.25)
+
+# Moving the mouse in relation to its current position
+# pyautogui.moveRel(100, 0, duration=0.25)
