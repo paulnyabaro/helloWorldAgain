@@ -9,7 +9,7 @@ import pyautogui
 print(pyautogui.size())
 width, height = pyautogui.size()
 
-for i in range(5):
+for i in range(2):
     pyautogui.moveTo(1, 1, duration=0.25)
     pyautogui.moveTo(width - 1, 1, duration=0.25)
     pyautogui.moveTo(width - 1, height - 10, duration=0.25)
@@ -17,8 +17,11 @@ for i in range(5):
 
 # Moving the mouse in relation to its current position
 # pyautogui.moveRel(100, 0, duration=0.25)
-for i in range(3):
+for i in range(2):
     pyautogui.moveRel(100, 0, duration=0.25)
     pyautogui.moveRel(0, 100, duration=0.25)
     pyautogui.moveRel(-100, 0, duration=0.25)
     pyautogui.moveRel(0, -100, duration=0.25)
+
+# Getting the mouse position
+print(pyautogui.position())
