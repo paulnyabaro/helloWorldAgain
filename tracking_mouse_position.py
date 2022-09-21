@@ -18,6 +18,7 @@ import pyautogui, random
 # pyautogui.doubleClick() , pyautogui.rightClick() and pyautogui.middleClick()
 
 # Dragging the mouse
+# Making a piece of art on https://kleki.com/
 pyautogui.click(150,150, duration=0.25)
 for i in range(100):
     pyautogui.dragTo(random.randint(150, 800), random.randint(150, 800), duration=0.25)
