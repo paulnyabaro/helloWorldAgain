@@ -18,3 +18,6 @@ pyautogui.typewrite(f'{text}', .05)
 
 # Pressing and releasing the keyword
 pyautogui.keyDown('shift'); pyautogui.press('4'); pyautogui.keyUp('shift')
+
+# Hot key combination
+pyautogui.hotkey('ctrl', 'c')
