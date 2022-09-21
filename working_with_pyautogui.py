@@ -7,3 +7,9 @@ import pyautogui
 # .FailSafeException exception --> disable this feature by pyautogui.FAILSAFE = False
 
 print(pyautogui.size())
+
+for i in range(5):
+    pyautogui.moveTo(100, 100, duration=0.25)
+    pyautogui.moveTo(200, 100, duration=0.25)
+    pyautogui.moveTo(200, 200, duration=0.25)
+    pyautogui.moveTo(100, 200, duration=0.25)
