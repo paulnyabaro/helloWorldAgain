@@ -29,3 +29,6 @@ draw_triangle()
 time.sleep(10)
 pyautogui.click(500, 200, duration=0.25)
 draw_triangle()
+
+# Scrolling up and down
+pyautogui.scroll(200) # for up use -200
