@@ -12,4 +12,11 @@ import pyautogui
 #
 
 # Clicking the mouse
-pyautogui.click(100, 150, button='right')
+pyautogui.click(100, 150, button='right') # middle, left, secondary, primary
+# Another option is pyautogui.mouseDown() and pyautogui.mouseUp()
+# Others include
+# pyautogui.doubleClick() , pyautogui.rightClick() and pyautogui.middleClick()
+
+# Dragging the mouse
+pyautogui.dragTo()
+pyautogui.dragRel()
