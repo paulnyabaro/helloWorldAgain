@@ -7,12 +7,18 @@ import pyautogui
 # .FailSafeException exception --> disable this feature by pyautogui.FAILSAFE = False
 
 print(pyautogui.size())
+width, height = pyautogui.size()
 
 for i in range(5):
-    pyautogui.moveTo(100, 100, duration=0.25)
-    pyautogui.moveTo(200, 100, duration=0.25)
-    pyautogui.moveTo(200, 200, duration=0.25)
-    pyautogui.moveTo(100, 200, duration=0.25)
+    pyautogui.moveTo(1, 1, duration=0.25)
+    pyautogui.moveTo(width - 1, 1, duration=0.25)
+    pyautogui.moveTo(width - 1, height - 10, duration=0.25)
+    pyautogui.moveTo(1, height -1, duration=0.25)
 
 # Moving the mouse in relation to its current position
 # pyautogui.moveRel(100, 0, duration=0.25)
+for i in range(3):
+    pyautogui.moveRel(100, 0, duration=0.25)
+    pyautogui.moveRel(0, 100, duration=0.25)
+    pyautogui.moveRel(-100, 0, duration=0.25)
+    pyautogui.moveRel(0, -100, duration=0.25)
