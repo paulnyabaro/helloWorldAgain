@@ -10,30 +10,32 @@ text_5 = '''it often takes multiple tests to determine if a puppy has what it ta
 text_6 = '''testing a puppy for agility training potential must be carried out by a trained professional who is experienced in this field.'''
 
 # The long way
-pyautogui.typewrite(f'{text_1}',0.01)
+# Speed achieved typing 3288WPM check god_speed_typing.png image
+pyautogui.typewrite(f'{text_1}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_2}',0.01)
+pyautogui.typewrite(f'{text_2}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_3}',0.01)
+pyautogui.typewrite(f'{text_3}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_4}',0.01)
+pyautogui.typewrite(f'{text_4}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_5}',0.01)
+pyautogui.typewrite(f'{text_5}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_6}',0.01)
+pyautogui.typewrite(f'{text_6}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_1}',0.01)
+pyautogui.typewrite(f'{text_1}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_2}',0.01)
+pyautogui.typewrite(f'{text_2}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_3}',0.01)
+pyautogui.typewrite(f'{text_3}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_4}',0.01)
+pyautogui.typewrite(f'{text_4}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_5}',0.01)
+pyautogui.typewrite(f'{text_5}',0.0004)
 pyautogui.press('enter')
-pyautogui.typewrite(f'{text_6}',0.01)
+pyautogui.typewrite(f'{text_6}',0.0004)
 pyautogui.hotkey('shift','enter')
+
 
 
 
