@@ -1,6 +1,7 @@
-import pyautogui, time
+import pyautogui, time, webbrowser
 
 time.sleep(5)
+# webbrowser.open('https://www.typing.com/student/lesson/11754/beginner-assessment')
 
 text_1 = '''not all dog owners will find that the particular breed they are raising is suitable for dog agility training.'''
 text_2 = '''sometimes it has to do with the breed, but other times it has to do with the puppy itself who must be assessed for agility potential.'''
