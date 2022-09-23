@@ -18,8 +18,7 @@
 # pip install <path to package>
 
 # Publishing a package to Test PyPI
-# In
-# addition to the account with Test PyPI, we also need to add an API token to the account.
+# In addition to the account with Test PyPI, we also need to add an API token to the account.
 # We will leave the details of creating an account and adding an API token to the account
 # for you by following the instructions available on the Test PyPI website (https://
 # test.pypi.org/).
@@ -28,3 +27,6 @@
 # following steps
 # 1. python setup.py sdist
 # 2. twine upload --repository testpypi dist/masifutilv2-0.1.0.tar.gz
+#
+# Installing the package from PyPI
+# pip install --index-url https://test.pypi.org/simple/ --no-deps masifutilv2
