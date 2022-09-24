@@ -53,9 +53,17 @@ class Car:
         self.i_color = color
         self.i_mileage = miles
         self.i_engine = self.Engine(eng_size)
-        self._model = model
+        self._model = model # Protected variable
+        self.__no_doors = 4
+
+
     def __str__(self):
         return f"car with color {self.i_color}, mileage \ {self.i_mileage} and engine of {self.i_engine}"
+
+    # Private method
+    def __doors(self):
+        return self.__no_doors
+
     class Engine:
         """inner class"""
         def __init__(self, size):
