@@ -49,6 +49,7 @@ class Car:
     """outer class"""
     c_mileage_units = "Mi"
     __max_speed = 200 #Private variable
+
     def __init__(self, color, miles, eng_size, model):
         self.i_color = color
         self.i_mileage = miles
@@ -68,9 +69,30 @@ class Car:
         """inner class"""
         def __init__(self, size):
             self.i_size = size
+
         def __str__(self):
             return self.i_size
+
 if __name__ == "__main__":
-    car = Car ("blue", 1000, "2.5L")
+    car = Car ("blue", 1000, "2.5L","Toyota")
     print(car)
     print(car.i_engine.i_size)
+
+    # Important note
+    # Python does not really make the variables and methods private, but it pretends to make them private.
+    # Python actually mangles the variable names with the class name so that they are not easily visible outside
+    # the class that contains them.
+
+    print(Car._Car__max_speed)
+    print(car._Car__doors())
+    print(car._model)
+
+    # Getter
+    # @property
+    # def color(self):
+    #     return self.__color
+
+    # Setter
+    # @mileage.setter
+    # def mileage(self, new_mil):
+    #     self.__mileage = new_mil
