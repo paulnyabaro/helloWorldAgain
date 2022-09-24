@@ -123,3 +123,10 @@ if __name__ == "__main__":
     car_two = CarTwo("blue", 5)
     car_two.print_me()
     car_two.hello()
+
+    # Composition
+    # class Car:
+    #     def __init__(self, color, eng_size, seat_type):
+    #         self.i_color = color
+    #         self.engine = Engine(eng_size)
+    #         self.seat = Seat(seat_type)
