@@ -34,6 +34,7 @@ print(car.i_model)
 print(car.i_color)
 Car.print_units()
 Car.print_hello()
+print(car) # This will print the content in the __str__ method
 
 # Important note
 # Attribute names start with c and i to indicate that they are class and instance
