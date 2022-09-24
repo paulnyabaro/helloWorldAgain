@@ -6,6 +6,15 @@ class Car:
         self.i_model = model
         self.i_year = year
 
+    @classmethod
+    def print_units(cls):
+        print(f'The mileage units: {cls.c_mileage_units}')
+        print(f'Class name: {cls.__name__}')
+
+    @staticmethod
+    def print_hello():
+        print('Hello from a static method')
+
     # Destructor
     def __del__(self):
         print("Object has been deleted")
@@ -17,6 +26,8 @@ car.i_miles = 10000
 
 print(car.i_model)
 print(car.i_color)
+Car.print_units()
+Car.print_hello()
 #
 # Important note
 # Attribute names start with c and i to indicate that they are class and instance
