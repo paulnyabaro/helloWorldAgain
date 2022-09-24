@@ -1,10 +1,14 @@
 class Car:
     # Class attributes
     c_mileage_units = "Mi"
+    # Constructor
     def __init__(self, model, year):
         self.i_model = model
         self.i_year = year
 
+    # Destructor
+    def __del__(self):
+        print("Object has been deleted")
 
 car = Car('Toyota', 2010)
 # Instant attributes
