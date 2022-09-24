@@ -102,7 +102,7 @@ if __name__ == "__main__":
     # Abstract class and methods
     from abc import ABC, abstractmethod
 
-    class Vehicle(ABC):
+    class VehicleTwo(ABC):
         def hello(self):
             print(f"Hello from abstract class")
 
@@ -110,7 +110,7 @@ if __name__ == "__main__":
     def print_me(self):
         pass
 
-    class Car(Vehicle):
+    class CarTwo(VehicleTwo):
         def __init__(self, color, seats):
             self.i_color = color
             self.i_seats = seats
@@ -118,9 +118,8 @@ if __name__ == "__main__":
 
 
     def print_me(self):
-        print(f"Car with color {self.i_color} and no of \
-    seats {self.i_seats}")
+        print(f"Car with color {self.i_color} and no of \ seats {self.i_seats}")
 
-    car = Car("blue", 5)
-    car.print_me()
-    car.hello()
+    car_two = CarTwo("blue", 5)
+    car_two.print_me()
+    car_two.hello()
