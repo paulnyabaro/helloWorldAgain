@@ -1,13 +1,21 @@
 class Car:
-    def __init__(self, c_model, year):
-        self.c_model = c_model
-        self.year = year
+    # Class attributes
+    c_mileage_units = "Mi"
+    def __init__(self, model, year):
+        self.i_model = model
+        self.i_year = year
 
 
 car = Car('Toyota', 2010)
 # Instant attributes
-car.color = 'red'
-car.miles = 10000
+car.i_color = 'red'
+car.i_miles = 10000
 
-print(car.c_model)
-print(car.color)
+print(car.i_model)
+print(car.i_color)
+#
+# Important note
+# Attribute names start with c and i to indicate that they are class and instance
+# variables, respectively, and not regular local or global variables. The name of
+# non-public instance attributes must start with a single or double underscore to
+# make them protected or private. This will be discussed later in the chapter.
