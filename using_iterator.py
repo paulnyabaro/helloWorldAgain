@@ -18,3 +18,9 @@ class Week:
 wk = Week()
 for day in wk:
     print(day)
+#
+# This style of implementing an
+# iterator is commonly found on the internet, but it is not a recommended approach and is
+# considered a bad design. The reason is that when we use it in the for loop, we get back
+# the main object as an iterator as we implemented __iter__ and __next__ in the
+# same class. This can give unpredictable results
