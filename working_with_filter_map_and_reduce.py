@@ -28,3 +28,8 @@ def seq_sum(num1, num2):
 mylist = [1, 2, 3, 4, 5]
 result = reduce(seq_sum, mylist)
 print(result)
+
+# Using Lambda with map
+# mylist = [1, 2, 3, 4, 5]
+# new_list = list(map(lambda x: x*x, mylist))
+# print(new_list)
