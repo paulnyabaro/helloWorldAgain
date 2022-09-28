@@ -6,3 +6,9 @@ mylist = [1, 2, 3, 4, 5]
 new_list = list(map(square, mylist))
 print(new_list)
 
+def product(num1, num2):
+    return num1 * num2
+mylist1 = [1, 2, 3, 4, 5]
+mylist2 = [6, 7, 8, 9]
+new_list = list(map(product, mylist1, mylist2))
+print(new_list)
