@@ -6,3 +6,8 @@ print(list2)
 
 list3 = [x for x in range(20) if x % 2 == 0]
 print(list3)
+
+# Dictionary comprehensions
+dict = {'a': 21, 'b': 23, 'c': 42, 'd': 68, 'e': 123, 'f': 153}
+dict2 = {x:int(y/2) for (x, y) in dict.items() if y <=200}
+print(dict2)
