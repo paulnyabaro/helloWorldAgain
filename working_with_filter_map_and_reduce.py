@@ -33,3 +33,11 @@ print(result)
 # mylist = [1, 2, 3, 4, 5]
 # new_list = list(map(lambda x: x*x, mylist))
 # print(new_list)
+
+# Embedding a function inside another function
+def outer_hello():
+    print ("Hello from outer function")
+    def inner_hello():
+        print("Hello from inner function")
+    inner_hello()
+outer_hello()
