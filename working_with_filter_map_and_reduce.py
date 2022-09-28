@@ -1,5 +1,6 @@
-# Map
+from functools import reduce
 
+# Map
 def square(num):
     return num * num
 mylist = [1, 2, 3, 4, 5]
@@ -20,3 +21,10 @@ def is_even(num):
 mylist = [1, 2, 3, 4, 5,6,7,8,9]
 new_list = list(filter(is_even, mylist))
 print(new_list)
+
+# Filter
+def seq_sum(num1, num2):
+    return num1+num2
+mylist = [1, 2, 3, 4, 5]
+result = reduce(seq_sum, mylist)
+print(result)
