@@ -7,7 +7,7 @@ def print_hello():
 
 def print_message(msg):
     sleep(1)
-    print("{}: {}".format(current_thread().name, msg))
+    print("{}: {}\n".format(current_thread().name, msg))
 
 # create threads
 t1 = Thread(target=print_hello, name="Th 1")
