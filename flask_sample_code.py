@@ -19,3 +19,12 @@
 # @app.errorhandler(500)
 # def internal_error(error):
 #     return render_template('error500.html'), 500
+#
+# @app.errorhandler(HTTPException)
+# def generic_handler(error):
+#     error_detail = json.dumps({
+#         "code": error.code,
+#         "name": error.name,
+#         "description": error.description,
+#     })
+#     return render_template('error.html', err_msg=error_detail), error.code
