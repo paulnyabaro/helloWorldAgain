@@ -12,8 +12,7 @@ cmd= 'show ip int brief \n'
 def main():
     try:
         ssh = paramiko.SSHClient()
-        ssh.set_missing_host_key_policy(paramiko.
-        AutoAddPolicy())
+        ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         ssh.connect(host, port, username, password)
         stdin, stdout, stderr = ssh.exec_command(cmd)
         output_lines = stdout.readlines()
