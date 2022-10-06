@@ -22,3 +22,21 @@ def main():
         ssh.close()
 if __name__ == '__main__':
     main()
+
+
+# Netmiko code
+from netmiko import ConnectHandler
+cisco_rtr = {
+    "device_type": "cisco_ios",
+    "host": "HOST_ID",
+    "username": "xxx",
+    "password": "xxxxxxx",
+    #"global_delay_factor": 2,
+}
+def main():
+    command = "show ip int brief"
+    with ConnectHandler(**cisco_rtr) as net_connect:
+        print(net_connect.find_prompt())
+        print(net_connect.enable())
+        output = net_connect.send_command(command)
+    print(output)
